@@ -8,6 +8,12 @@ body{
 header .log h3{
     color: orangered;
 }
+header .log .fa{
+    background-color: rgba(255, 68, 0, 0.093);
+    padding: 5px;
+    color: orangered;
+    border-radius: 5px;
+}
 header{
     background-color: rgb(234, 233, 233);
     display: flex;
@@ -108,4 +114,12 @@ header .signUp button{
 }
 .list .item1 span{
     font-size: 12px;
+}
+
+/* *******Icons */
+.list .item1 .fa{
+    background-color: rgba(255, 68, 0, 0.093);
+    padding: 8px;
+    color: orangered;
+    border-radius: 5px;
 }
